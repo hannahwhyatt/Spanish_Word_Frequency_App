@@ -5,7 +5,7 @@ In Spain, the word for 'potato' is _patata_, and in Latin America it is usuall
 
 - Some words are regional, but universally understood, e.g. _órale güey_, from Mexico; _guay_ or _vale_ from Spain.
 - Some words (often slang terms) are unheard of outside certain countries or regions, e.g. _zarpado_ from Argentina, or _tuani_ from Nicaragua, El Salvador.
-- Some words change meaning depending on country or region, e.g. _papa_; _torta_; the notorious _coger_. 
+- Some words change meaning depending on country or region, e.g. _papa_; _torta_. 
 
 The aim of this project is to explore Spanish word frequency by region, and therefore get some measure of which vocabularies are most likely to be understood by location. Changes in meaning are set aside for now. I've use data from a corpus of Spanish language web pages (about 2 billion words) found at [corpusdata.org](https://www.corpusdata.org/spanish.asp) [(download page)](https://www.corpusdata.org/formats.asp), which is labelled with the country origin of each webpage source. The authors of the data have published a couple of [insights](https://www.corpusdelespanol.org/web-dial/) into this topic, but here I'll explore further. I've used the sample (~1/100 of the original dataset) to carry out some analysis and practice using SQL, python, visualisation tools, etc. The full text corpus would grant a more reliable analysis, but I'm about $795 short.  
 
