@@ -12,7 +12,7 @@ The aim of this project is to explore Spanish word frequency by region, and ther
 ## Data
 **TL;DR: SQL to manage the corpus data.**
 
-The repo containing the data for this project can be found [here](https://github.com/hannahwhyatt/spanish_corpus), alongside my python script for transforming the .txt files into a PostgreSQL database using the psycopg2 library. In short, the raw corpus data is stored by individual word instance, and each word is stored by word ID, alongside a text source ID. The lexical information for each word ID is found in a separate .txt file, as are the source texts. Given the size and organisation of this data, it seemed like a nice opportunity to learn how to use SQL, and practice creating some relations. Below is the Entity-Relationship diagram showing relations between the raw data (main table) and lexicon reference and text source tables in the database.  
+The repo containing the data for this project can be found [here](https://github.com/hannahwhyatt/Spanish_Corpus_Database), alongside my python script for transforming the text files into a PostgreSQL database using the psycopg2 library. In short, the raw corpus data is stored by individual word instance, and each word is stored by word ID, alongside a text source ID. The lexical information for each word ID is found in a separate .txt file, as are the source texts. Given the size and organisation of this data, it seemed like a nice opportunity to learn how to use SQL, and practice creating some relations. Below is the Entity-Relationship diagram showing relations between the raw data (main table) and lexicon reference and text source tables in the database.  
 
 ![image](https://github.com/hannahwhyatt/corpusapp/assets/103440636/31d31ddf-9d7e-4e0a-ad7e-db8f8adb537e)
 
